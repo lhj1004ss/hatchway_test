@@ -1,0 +1,17 @@
+.student__extra {
+  margin-left: 110px;
+}
+
+.student__extra__button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 0;
+  color: rgb(100, 100, 100);
+}
+
+.student__extra__tag-form {
+  margin-top: 10px;
+}

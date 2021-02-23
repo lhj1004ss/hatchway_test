@@ -1,0 +1,32 @@
+.student__container {
+  display: flex;
+  align-items: center;
+}
+
+.student__img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.student__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.student__info {
+  flex: 10;
+}
+
+.student__info h1 {
+  text-transform: uppercase;
+  color: black;
+}
+
+.student__btn {
+  font-size: 2rem;
+  align-self: flex-start;
+}

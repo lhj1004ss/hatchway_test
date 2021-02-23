@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+:root {
+  --primary-color: rgb(177, 177, 177);
+  --secondary-color: rgb(236, 236, 236);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Lato", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+input {
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 8px;
+}
